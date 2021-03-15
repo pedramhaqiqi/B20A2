@@ -2,6 +2,12 @@ body{
     padding-bottom: 40px;
     background-color: rgba(0, 5, 15, 0.952);
 }
+.header{
+    color:#fff;
+    background-color: rgba(32, 6, 179, 0.507);
+    text-align: center;
+    padding: 20px 0;
+}
 .container{
     width: 100%;
 }
@@ -47,4 +53,4 @@ nav a:hover{
 .other{
   color: #fff;
   font-size: 20px;
-} 
+}
