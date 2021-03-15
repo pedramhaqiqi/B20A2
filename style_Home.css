@@ -1,0 +1,50 @@
+body{        
+    padding-bottom: 40px;
+    background-color: rgba(0, 5, 15, 0.952);
+}
+.container{
+    width: 100%;
+}
+.fixed-header{
+    width: 100%;
+    position: sticky;        
+    background: rgba(32, 6, 179, 0.658);
+    padding: 20px 0;
+    color: #fff;
+}
+/* To make sure it remains at the top of the page*/
+.fixed-header{
+    top: 0;
+}
+.headermenu{
+    text-align: center;
+    
+}
+nav a{
+  
+  padding: 20px;
+  text-decoration: none;
+  width: 12.5%; /* Eight items of equal width */
+  text-align: center;
+  font-family: 'Segoe UI';
+}
+nav a:hover{
+  background-color: rgba(255, 217, 0, 0.685);
+  font-style: bold;
+  
+}
+/* Insert space from the header */
+.container p{
+    line-height: 200px;
+}
+.current{
+  background-color: rgba(245, 222, 12, 0.932);
+  font-size: 22px;
+  padding: 18px;  /* Overwrite the previous padding amount in order to increase font without enlarging the menu bar */
+  font-weight: bold;
+  color: #000;
+}
+.other{
+  color: #fff;
+  font-size: 20px;
+}
