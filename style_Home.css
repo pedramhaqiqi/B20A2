@@ -2,47 +2,53 @@ body{
     padding-bottom: 40px;
     background-color: rgba(0, 5, 15, 0.952);
 }
-.header{
+.content{
+    color: #fff;
+}
+/* This class belongs to the upper-header containing the course name */
+.header{ 
     color:#fff;
     background-color: rgba(32, 6, 179, 0.507);
     text-align: center;
-    padding: 20px 0;
+    margin-top: 0;
+    padding: 1px 0;
+    position: sticky;
 }
 .container{
     width: 100%;
 }
-.fixed-header{
+/* This class belongs to the lower-header that stays at the top while scrolling down */
+.fixed-header{ 
     width: 100%;
     position: sticky;        
     background: rgba(32, 6, 179, 0.658);
     padding: 20px 0;
     color: #fff;
 }
-/* To make sure it remains at the top of the page*/
+/* To make sure the lower-header remains at the top of the page */
 .fixed-header{
     top: 0;
 }
+/* Centers the text within the header menu */
 .headermenu{
     text-align: center;
-    
 }
 nav a{
   
   padding: 20px;
   text-decoration: none;
-  width: 12.5%; /* Eight items of equal width */
+  width: 12.5%; /* Eight items of equal width, adds up to 100% */
   text-align: center;
   font-family: 'Segoe UI';
 }
 nav a:hover{
   background-color: rgba(255, 217, 0, 0.685);
-  font-style: bold;
-  
 }
-/* Insert space from the header */
+/* Leave space from the header so that text does not fall under it */
 .container p{
     line-height: 200px;
 }
+/* This class represents the currently selected page */
 .current{
   background-color: rgba(245, 222, 12, 0.932);
   font-size: 22px;
@@ -50,6 +56,7 @@ nav a:hover{
   font-weight: bold;
   color: #000;
 }
+/* This class represents the non-selected pages */
 .other{
   color: #fff;
   font-size: 20px;
