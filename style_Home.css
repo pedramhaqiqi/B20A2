@@ -40,6 +40,8 @@ nav a{
   width: 12.5%; /* Eight items of equal width, adds up to 100% */
   text-align: center;
   font-family: 'Segoe UI';
+  color: #fff;
+  font-size: 20px;
 }
 nav a:hover{
   background-color: rgba(255, 217, 0, 0.685);
@@ -55,9 +57,4 @@ nav a:hover{
   padding: 18px;  /* Overwrite the previous padding amount in order to increase font without enlarging the menu bar */
   font-weight: bold;
   color: #000;
-}
-/* This class represents the non-selected pages */
-.other{
-  color: #fff;
-  font-size: 20px;
 }
