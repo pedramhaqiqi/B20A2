@@ -52,6 +52,7 @@ nav a{
 }
 nav a:hover{
   background-color: rgba(255, 217, 0, 0.685);
+  border-radius: 7px;
 }
 /* Leave space from the header so that text does not fall under it */
 .container p{
@@ -64,6 +65,7 @@ nav a:hover{
   padding: 20px;  /* Overwrite the previous padding amount in order to increase font without enlarging the menu bar */
   font-weight: bold;
   color: #000;
+  border-radius: 7px;
 }
 .footer{
     position:absolute;
