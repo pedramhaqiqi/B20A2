@@ -116,7 +116,6 @@ nav a:hover{
     grid-template-columns: 125px 125px 125px 125px;
     grid-template-rows: 100px 50px  ;
   }
-  
   .week {
     margin-top: 50px;
     display: grid;
@@ -283,4 +282,32 @@ nav a:hover{
   font-size: 28px;
   color: rgba(190, 243, 190, 0.747);
   padding-left: 2px;
+}
+
+/* End of code for HOME */
+
+/* Start of code for LINKS */
+
+.line1{
+  border-top: 4px solid rgb(238, 255, 0);
+  border-radius: 10px;
+  width: 20%;
+}
+.links-header{
+  text-align: center;
+}
+.links-content{
+  padding-left: 3%;
+  padding-top: 3%;
+}
+.links-content p a:visited{
+  color:rgb(247, 250, 200);
+}
+.links-content p a:link{
+  color:rgb(247, 250, 200);
+}
+.links-content p a:hover{
+  color:rgb(240, 187, 109);
+  font-style: italic;
+  font-weight: lighter;
 }
