@@ -12,6 +12,7 @@ body{
 }
 .content{
     color: #fff;
+    z-index: 1;
 }
 /* This class belongs to the upper-header containing the course name */
 .header{ 
@@ -32,6 +33,7 @@ body{
     padding: 20px 0;
     color: #fff;
     top: 0; /* For the header to remain at the top while scrolling */
+    z-index: 2;
 }
 /* Centers the text within the header menu */
 .headermenu{
