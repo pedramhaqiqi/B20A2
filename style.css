@@ -2,6 +2,14 @@ body{
     background-color: rgba(0, 5, 15, 0.952);
     margin: 0;
 }
+.flex-wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 120px;
+}
 .content{
     color: #fff;
 }
@@ -54,7 +62,7 @@ nav a:hover{
   color: #000;
 }
 .footer{
-    position: relative;
+    position:absolute;
     bottom: 0;
     width: 100%;
     height: 70px;
@@ -70,7 +78,6 @@ nav a:hover{
     font-weight: lighter;
     text-decoration: none;
 }
-
 .footer a:link {
     text-decoration: none;
     color:#fff;
