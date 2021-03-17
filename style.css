@@ -62,7 +62,7 @@ nav a:hover{
 .current{
   background-color: rgba(245, 222, 12, 0.932);
   font-size: 22px;
-  padding: 20px;  /* Overwrite the previous padding amount in order to increase font without enlarging the menu bar */
+  padding: 20px;
   font-weight: bold;
   color: #000;
   border-radius: 7px;
@@ -94,4 +94,172 @@ nav a:hover{
   }
 .footer a:hover {
     color:rgb(230, 206, 103);
+  }
+
+  /* The code above this line is used by every page and consists of styling for the header, page content, and footer */
+  
+  /* The next section consists of styling for the LECTURES page, and other pages that are navigated to through the LECTURES page */
+
+  .week0 :hover{
+    font-style: italic;
+  }
+  .week :hover{
+    font-style: italic;
+  }
+  .week0 {
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: stretch;
+    grid-template-columns: 125px 125px 125px 125px;
+    grid-template-rows: 100px 50px  ;
+  }
+  
+  .week {
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: stretch;
+    grid-template-columns: 125px 125px 125px 125px;
+    grid-template-rows: 100px 50px  ;
+  }
+  .item1{
+   /*padding: 50px 0;
+   */
+   color: black;
+   font-family:'san francisco';
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   grid-column: 1/5;
+   background-color: #fbb034;
+   background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
+   border: 2px solid rgba(0, 0, 0, 0.8);
+   border-radius: 15px;
+  }
+  .item2{
+   color: black;
+   font-family:'san francisco';
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   grid-column: 1/3;
+   background-color: #fbb034;
+   background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
+   border: 2px solid rgba(0, 0, 0, 0.8);
+   border-radius: 15px;
+  }
+  .item3{
+    color: black;
+    font-family:'san francisco';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3/5;
+    background-color: #fbb034;
+    background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+  }
+  /*special case for week 5 tutorial */
+  .week9 {
+    margin-top: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: stretch;
+    grid-template-columns: 85px 85px 85px 85px 85px 85px;
+    grid-template-rows: 100px 50px;
+  }
+  .item15{
+   /*padding: 50px 0;
+   */
+   color: black;
+   font-family:'san francisco';
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   grid-column: 1/7;
+   background-color: #fbb034;
+   background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
+   border: 2px solid rgba(0, 0, 0, 0.8);
+   border-radius: 15px;
+  }
+  .item25{
+   color: black;
+   font-family:'san francisco';
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   grid-column: 1/3;
+   background-color: #fbb034;
+   background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
+   border: 2px solid rgba(0, 0, 0, 0.8);
+   border-radius: 15px;
+  }
+  .item35{
+    color: black;
+    font-family:'san francisco';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3/5;
+    background-color: #fbb034;
+    background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+  }
+  .item45{
+    color: black;
+    font-family:'san francisco';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 5/7;
+    background-color: #fbb034;
+    background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+  }
+  /*special case of 2 element grid*/
+  .item20{
+    color: black;
+    font-family:'san francisco';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/6;
+    background-color: #fbb034;
+    background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+  }
+  .leccontent{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .leccontent h1, p{
+    background-color: #fbb034;
+    border-radius: 5px;
+  }
+  .Prelec{
+    background-color: beige;
+    border-radius: 5px;
+  }
+  .SlidesVideos{
+    background-color: beige;
+    border-radius: 5px;
+  }
+  .leccontent a:hover{
+    font-style: italic;
   }
