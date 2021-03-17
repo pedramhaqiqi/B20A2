@@ -98,7 +98,7 @@ nav a:hover{
 
   /* The code above this line is used by every page and consists of styling for the header, page content, and footer */
   
-  /* The next section consists of styling for the LECTURES page, and other pages that are navigated to through the LECTURES page */
+  /* This section consists of styling for the LECTURES page, and other pages that are navigated to through the LECTURES page */
 
   .week0 :hover{
     font-style: italic;
@@ -263,3 +263,22 @@ nav a:hover{
   .leccontent a:hover{
     font-style: italic;
   }
+
+/* End of code for LECTURES page */
+
+/* Beginning of code for HOME (index.HTML) page */
+
+.oh-circle-on {
+  height: 23px;
+  width: 23px;
+  background-color: rgba(0, 255, 0, 0.747);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 12px;
+}
+.oh-bar p{
+  display: inline-block;
+  font-size: 28px;
+  color: rgba(190, 243, 190, 0.747);
+  padding-left: 2px;
+}
