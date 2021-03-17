@@ -4,7 +4,7 @@ body{
 }
 .flex-wrapper{
     display: flex;
-    min-height: 100vh;
+    min-height: 68.5vh;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
