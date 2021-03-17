@@ -248,7 +248,7 @@ nav a:hover{
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .leccontent h1, p{
+  .leccontent h1, .leccontent p{
     background-color: #fbb034;
     border-radius: 5px;
   }
