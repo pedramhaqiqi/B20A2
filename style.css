@@ -42,7 +42,7 @@ nav a{
   text-decoration: none;
   width: 12.5%; /* Eight items of equal width, adds up to 100% */
   text-align: center;
-  font-family: 'Segoe UI';
+  font-family: 'Segoe UI', 'San Francisco';
   color: #fff;
   font-size: 20px;
 }
