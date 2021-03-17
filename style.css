@@ -37,14 +37,18 @@ body{
 .headermenu{
     text-align: center;
 }
+.headermenu a{
+    display:inline-block
+}
 nav a{
   padding: 20px;
   text-decoration: none;
-  width: 12.5%; /* Eight items of equal width, adds up to 100% */
+  width: 10%; /* Eight items of equal width, adds up to 100% */
   text-align: center;
   font-family: 'Segoe UI', 'San Francisco';
   color: #fff;
   font-size: 20px;
+  height: 20px;
 }
 nav a:hover{
   background-color: rgba(255, 217, 0, 0.685);
@@ -57,7 +61,7 @@ nav a:hover{
 .current{
   background-color: rgba(245, 222, 12, 0.932);
   font-size: 22px;
-  padding: 18px;  /* Overwrite the previous padding amount in order to increase font without enlarging the menu bar */
+  padding: 20px;  /* Overwrite the previous padding amount in order to increase font without enlarging the menu bar */
   font-weight: bold;
   color: #000;
 }
@@ -85,4 +89,7 @@ nav a:hover{
 .footer a:visited {
     text-decoration: none;
     color:#fff;
+  }
+.footer a:hover {
+    color:rgb(230, 206, 103);
   }
