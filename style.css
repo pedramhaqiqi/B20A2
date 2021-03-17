@@ -2,6 +2,15 @@ body{
     background-color: rgba(0, 5, 15, 0.952);
     margin: 0;
 }
+p{
+  font-family: 'Segoe UI', 'San Francisco', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+  font-family: 'Segoe UI', 'San Francisco', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+  font-family: 'Segoe UI', 'San Francisco', Tahoma, Geneva, Verdana, sans-serif;
+}
 .flex-wrapper{
     display: flex;
     min-height: 68.5vh;
@@ -21,6 +30,7 @@ body{
     text-align: center;
     padding: 1px 0;
     position: sticky;
+    font-weight: lighter;
 }
 .container{
     width: 100%;
@@ -100,7 +110,7 @@ nav a:hover{
 
   /* The code above this line is used by every page and consists of styling for the header, page content, and footer */
   
-  /* This section consists of styling for the LECTURES page, and other pages that are navigated to through the LECTURES page */
+  /* Start of code for LECTURES */
 
   .week0 :hover{
     font-style: italic;
@@ -265,9 +275,9 @@ nav a:hover{
     font-style: italic;
   }
 
-/* End of code for LECTURES page */
+/* End of code for LECTURES */
 
-/* Beginning of code for HOME (index.HTML) page */
+/* Start of code for HOME (index.HTML) */
 
 .oh-circle-on {
   height: 23px;
@@ -330,6 +340,9 @@ nav a:hover{
   padding-top: 1%;
   padding-bottom: 2%;
 }
+.assignments-content p{
+  text-align: center;
+}
 .assignments-content p a:visited{
   color:rgb(247, 250, 200);
 }
@@ -341,3 +354,39 @@ nav a:hover{
   font-style: italic;
   font-weight: lighter;
 }
+
+/* End of code for ASSIGNMENTS */
+
+/* Start of code for CALENDAR */
+
+.calendar-content{
+  padding-top: 1.5%;
+  padding-left: 2%;
+}
+.calendar{
+  height: 650px;
+  width: 75%;
+}
+.calendar-content p a:visited{
+  color:rgb(247, 250, 200);
+}
+.calendar-content p a:link{
+  color:rgb(247, 250, 200);
+}
+.calendar-content p a:hover{
+  color:rgb(240, 187, 109);
+  font-style: italic;
+  font-weight: lighter;
+}
+
+/* End of code for CALENDAR */
+
+/* Start of code for TESTS */
+
+.tests-content{
+  text-align: center;
+  padding-top: 5%;
+  font-size: 120%;
+}
+
+/* End of code for TESTS */
