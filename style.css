@@ -107,6 +107,30 @@ nav a:hover{
 .footer a:hover {
     color:rgb(230, 206, 103);
   }
+html{
+  cursor: url(m1.png), auto;
+}
+html a:hover{
+  cursor: url(m1.png), auto;
+}
+html a:active{
+  cursor: url(m2.png), auto;
+}
+body{
+  cursor: url(m1.png), auto;
+}
+.header{
+  cursor: url(m1.png), auto;
+}
+.content{
+  cursor: url(m1.png), auto;
+}
+.footer{
+  cursor: url(m1.png), auto;
+}
+.footer p:hover{
+  cursor: url(m1.png), auto;
+}
 
   /* The code above this line is used by every page and consists of styling for the header, page content, and footer */
   
