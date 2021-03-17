@@ -288,7 +288,7 @@ nav a:hover{
 
 /* Start of code for LINKS */
 
-.line1{
+.links-line1{
   border-top: 4px solid rgb(238, 255, 0);
   border-radius: 10px;
   width: 20%;
@@ -307,6 +307,36 @@ nav a:hover{
   color:rgb(247, 250, 200);
 }
 .links-content p a:hover{
+  color:rgb(240, 187, 109);
+  font-style: italic;
+  font-weight: lighter;
+}
+
+/* End of code for LINKS */
+
+/* Start of code for ASSIGNMENTS */
+
+.assignments-line1{
+  border-top: 4px solid rgb(145, 255, 0);
+  border-radius: 10px;
+  width: 20%;
+}
+.assignments-header{
+  text-align: center;
+  padding-top: 2%;
+}
+.assignments-content{
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.assignments-content p a:visited{
+  color:rgb(247, 250, 200);
+}
+.assignments-content p a:link{
+  color:rgb(247, 250, 200);
+}
+.assignments-content p a:hover{
   color:rgb(240, 187, 109);
   font-style: italic;
   font-weight: lighter;
