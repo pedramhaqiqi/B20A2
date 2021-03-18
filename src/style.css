@@ -1,5 +1,8 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
-    background-color: rgba(0, 5, 15, 0.952);
+    background-color: rgb(10, 20, 37);
     margin: 0;
 }
 p{
@@ -23,7 +26,7 @@ h3{
     color: #fff;
     z-index: 1;
 }
-/* This class belongs to the upper-header containing the course name */
+/* Header containing website title */
 .header{ 
     color:#fff;
     background-color: rgba(32, 6, 179, 0.507);
@@ -35,12 +38,12 @@ h3{
 .container{
     width: 100%;
 }
-/* This class belongs to the lower-header that stays at the top while scrolling down */
+/* Lower-header that stays fixed while scrolling down */
 .fixed-header{ 
     width: 100%;
     position: sticky;        
     background: rgba(32, 6, 179, 0.658);
-    padding: 20px 0;
+    padding: 5px 0;
     color: #fff;
     top: 0; /* For the header to remain at the top while scrolling */
     z-index: 2;
@@ -53,7 +56,9 @@ h3{
     display:inline-block
 }
 nav a{
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   text-decoration: none;
   width: 10%; /* Eight items of equal width, adds up to 100% */
   text-align: center;
@@ -66,7 +71,7 @@ nav a:hover{
   background-color: rgba(255, 217, 0, 0.685);
   border-radius: 7px;
 }
-/* Leave space from the header so that text does not fall under it */
+/* Leave space from the header so that content does not fall under it */
 .container p{
     line-height: 200px;
 }
@@ -107,206 +112,249 @@ nav a:hover{
 .footer a:hover {
     color:rgb(230, 206, 103);
   }
-/* Many cursor related blocks here because to prevent the cursor from occasionally glitching out between pages */
+/* Many cursor related styling sections to prevent the cursor from occasionally glitching out between pages */
 html{
-  cursor: url(m1.png), auto;
+  cursor: url(images/m1.png), auto;
 }
 html a:hover{
-  cursor: url(m1.png), auto;
+  cursor: url(images/m1.png), auto;
 }
 html a:active{
-  cursor: url(m2.png), auto;
+  cursor: url(images/m2.png), auto;
 }
 body{
-  cursor: url(m1.png), auto;
+  cursor: url(images/m1.png), auto;
 }
 .header{
-  cursor: url(m1.png), auto;
+  cursor: url(images/m1.png), auto;
 }
 .content{
-  cursor: url(m1.png), auto;
+  cursor: url(images/m1.png), auto;
 }
 .footer{
-  cursor: url(m1.png), auto;
+  cursor: url(images/m1.png), auto;
 }
 .footer p:hover{
-  cursor: url(m1.png), auto;
+  cursor: url(images/m1.png), auto;
 }
 
-  /* The code above this line is used by every page and consists of styling for the header, page content, and footer */
+/* The code above this line is used by every page and consists of styling for the header, page content, and footer */
   
-  /* Start of code for LECTURES */
+/* Start of code for LECTURES */
 
-  .week0 :hover{
-    font-style: italic;
-  }
-  .week :hover{
-    font-style: italic;
-  }
-  .week0 {
-    margin-top: 100px;
-    display: grid;
-    justify-content: center;
-    align-items: stretch;
-    grid-template-columns: 125px 125px 125px 125px;
-    grid-template-rows: 100px 50px  ;
-  }
-  .week {
-    margin-top: 50px;
-    display: grid;
-    justify-content: center;
-    align-items: stretch;
-    grid-template-columns: 125px 125px 125px 125px;
-    grid-template-rows: 100px 50px  ;
-  }
-  .item1{
-   /*padding: 50px 0;
-   */
-   color: black;
-   font-family:'san francisco';
-   font-size: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   grid-column: 1/5;
-   background-color: #fbb034;
-   background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
-   border: 2px solid rgba(0, 0, 0, 0.8);
-   border-radius: 15px;
-  }
-  .item2{
-   color: black;
-   font-family:'san francisco';
-   font-size: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   grid-column: 1/3;
-   background-color: #fbb034;
-   background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
-   border: 2px solid rgba(0, 0, 0, 0.8);
-   border-radius: 15px;
-  }
-  .item3{
-    color: black;
-    font-family:'san francisco';
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-column: 3/5;
-    background-color: #fbb034;
-    background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
-  }
-  /*special case for week 5 tutorial */
-  .week9 {
-    margin-top: 60px;
-    display: grid;
-    justify-content: center;
-    align-items: stretch;
-    grid-template-columns: 85px 85px 85px 85px 85px 85px;
-    grid-template-rows: 100px 50px;
-  }
-  .item15{
-   /*padding: 50px 0;
-   */
-   color: black;
-   font-family:'san francisco';
-   font-size: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   grid-column: 1/7;
-   background-color: #fbb034;
-   background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
-   border: 2px solid rgba(0, 0, 0, 0.8);
-   border-radius: 15px;
-  }
-  .item25{
-   color: black;
-   font-family:'san francisco';
-   font-size: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   grid-column: 1/3;
-   background-color: #fbb034;
-   background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
-   border: 2px solid rgba(0, 0, 0, 0.8);
-   border-radius: 15px;
-  }
-  .item35{
-    color: black;
-    font-family:'san francisco';
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-column: 3/5;
-    background-color: #fbb034;
-    background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
-  }
-  .item45{
-    color: black;
-    font-family:'san francisco';
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-column: 5/7;
-    background-color: #fbb034;
-    background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
-  }
-  /*special case of 2 element grid*/
-  .item20{
-    color: black;
-    font-family:'san francisco';
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-column: 1/6;
-    background-color: #fbb034;
-    background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
-  }
-  .leccontent{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .leccontent h1, .leccontent p{
-    background-color: #fbb034;
-    border-radius: 5px;
-  }
-  .Prelec{
-    background-color: beige;
-    border-radius: 5px;
-  }
-  .SlidesVideos{
-    background-color: beige;
-    border-radius: 5px;
-  }
-  .leccontent a:hover{
-    font-style: italic;
-  }
+.week0 :hover{
+  font-style: italic;
+}
+.week :hover{
+  font-style: italic;
+}
+.week0 {
+  margin-top: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: stretch;
+  grid-template-columns: 125px 125px 125px 125px;
+  grid-template-rows: 100px 50px  ;
+}
+.week {
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: stretch;
+  grid-template-columns: 125px 125px 125px 125px;
+  grid-template-rows: 100px 50px  ;
+}
+.item1{
+  /*padding: 50px 0;
+  */
+  text-align:center;
+  color: black;
+  font-family:'san francisco';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/5;
+  background-color: #fbb034;
+  background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+.item2{
+  text-align:center;
+  color: black;
+  font-family:'san francisco';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/3;
+  background-color: #fbb034;
+  background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+.item3{
+  text-align:center;
+  color: black;
+  font-family:'san francisco';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3/5;
+  background-color: #fbb034;
+  background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+/*special case for week 5 tutorial */
+.week9 {
+  margin-top: 60px;
+  display: grid;
+  justify-content: center;
+  align-items: stretch;
+  grid-template-columns: 85px 85px 85px 85px 85px 85px;
+  grid-template-rows: 100px 50px;
+}
+.item15{
+  /*padding: 50px 0;
+  */
+  text-align:center;
+  color: black;
+  font-family:'san francisco';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/7;
+  background-color: #fbb034;
+  background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+.item25{
+  text-align:center;
+  color: black;
+  font-family:'san francisco';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/3;
+  background-color: #fbb034;
+  background-image: linear-gradient(200deg, #fbb034 0%, #ffdd00 74%);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+.item35{
+  text-align:center;
+  color: black;
+  font-family:'san francisco';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3/5;
+  background-color: #fbb034;
+  background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+.item45{
+  text-align:center;
+  color: black;
+  font-family:'san francisco';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 5/7;
+  background-color: #fbb034;
+  background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+/*special case of 2 element grid*/
+.item20{
+  text-align:center;
+  color: black;
+  font-family:'san francisco';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/6;
+  background-color: #fbb034;
+  background-image: linear-gradient(160deg, #fbb034 0%, #ffdd00 74%);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+.leccontent{
+  margin-top: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items:stretch;
+}
+.leccontent div {
+  padding: 20px;
+  margin:60px;
+  border-radius: 10px;
+
+}
+.leccontent a:visited{
+  color:rgb(247, 250, 200);
+}
+.leccontent a:link{
+  color:rgb(247, 250, 200);
+}
+.leccontent a:hover{
+  color:rgb(240, 187, 109);
+  font-style: italic;
+  font-weight: lighter;
+}
+
+
+.Prelec h3{
+text-align: center;
+}
+.SlidesVideos h3{
+text-align: center;
+
+}
+.Prelec hr{
+  width: 40%;
+}
+.SlidesVideos hr{
+  width: 40%;
+}
+
+.Prelec{
+  background-color: #292727;
+  border-radius: 5px;
+  border: 2px #3b3939 solid;
+  flex:1;
+}
+.SlidesVideos{
+  background-color: #292727;
+  border-radius: 5px;
+  border: 2px #3b3939 solid;
+  flex:1;
+}
+.leccontent a:hover{
+  font-style: italic;
+}
 
 /* End of code for LECTURES */
 
 /* Start of code for HOME (index.HTML) */
 
 .oh-circle-on {
-  height: 23px;
-  width: 23px;
+  height: 20px;
+  width: 20px;
   background-color: rgba(0, 255, 0, 0.747);
   border-radius: 50%;
   display: inline-block;
@@ -314,7 +362,7 @@ body{
 }
 .oh-bar p{
   display: inline-block;
-  font-size: 28px;
+  font-size: 25px;
   color: rgba(190, 243, 190, 0.747);
   padding-left: 2px;
 }
@@ -330,23 +378,23 @@ body{
 }
 .coursedescription{
   background-color: #292727;
-  align-self: center;
+  align-self: flex-start;
   border: 2px #3b3939 solid;
   flex:3;
   order:1;
 }
 .instructors{
   background-color: #292727;
-  align-self: center;
+  align-self: flex-start;
   border: 2px #3b3939 solid;
   flex:1;
   order:2;
 }
 .TimeTable{
   background-color: #292727;
-  align-self: center;
+  align-self: flex-start;
   border: 2px #3b3939 solid;
-  flex:2;
+  flex:2.5;
   order:3;
 }
 .eventswidget{
@@ -359,6 +407,9 @@ body{
 .eventswidget h3{
   text-align: center;
 }
+.eventswidget hr{
+  width:60%;
+}
 .eventswidget p span{
   font-weight:lighter;
   font-size: 85%;
@@ -369,12 +420,6 @@ body{
   flex-direction: row;
   justify-content: space-around;
   height: 800px;
-}
-.homecontent .course0{
-  background-color: Darkblue;
-    width: 60%;
-    align-self: stretch;
-
 }
 .homecontent .eventswidget{
 
@@ -396,7 +441,7 @@ body{
 /* Start of code for LINKS */
 
 .links-line1{
-  border-top: 4px solid rgb(238, 255, 0);
+  border-top: 4px solid rgb(145, 255, 0);
   border-radius: 10px;
   width: 20%;
 }
