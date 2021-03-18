@@ -5,7 +5,7 @@
 - As a student user, I must be redirected to the course's Piazza page when I click on 'Discussion Board'
 - As a student user, when I click the 'Calendar' button I should be able to access the Google Course Calendar
 - As a student user, I should know which page i am on based on page name highlighted
-- As a student user, when I click on 'Course Content', I should be taken to a page where the course is divided based on weeks
+- As a student user, when I click on 'Course Content', I should be taken to a page where the course is divided based on weeks with links to both lecture and tutorial material belonging to that week
 - As a student user, when I click a certain week's lectures on the 'Course Content' page, I should see all the lecture material belonging to that week
 - As a student user, when I click a certain week's tutorials on the 'Course Content' page, I should see all the tutorial material belonging to that week
 - As a student user, I should see a section on the homepage with assignment due dates and corresponding links
