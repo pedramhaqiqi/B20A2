@@ -107,6 +107,7 @@ nav a:hover{
 .footer a:hover {
     color:rgb(230, 206, 103);
   }
+/* Many cursor related blocks here because to prevent the cursor from occasionally glitching out between pages */
 html{
   cursor: url(m1.png), auto;
 }
@@ -317,7 +318,79 @@ body{
   color: rgba(190, 243, 190, 0.747);
   padding-left: 2px;
 }
+.homecontent{
+  flex-wrap: wrap;
+  display:flex;
+  justify-content: space-around;
+}
+.homecontent div{
+  padding: 20px;
+  margin:30px;
+  border-radius: 10px;
+}
+.coursedescription{
+  background-color: #292727;
+  align-self: center;
+  border: 2px #3b3939 solid;
+  flex:3;
+  order:1;
+}
+.instructors{
+  background-color: #292727;
+  align-self: center;
+  border: 2px #3b3939 solid;
+  flex:1;
+  order:2;
+}
+.TimeTable{
+  background-color: #292727;
+  align-self: center;
+  border: 2px #3b3939 solid;
+  flex:2;
+  order:3;
+}
+.eventswidget{
+  background-image: linear-gradient(160deg, #0c5497 0%, #071669 74%);
+  align-self: flex-start;
+  border: 2px #3b3939 solid;
+  flex:3;
+  order:4;
+}
+.eventswidget h3{
+  text-align: center;
+}
+.eventswidget p span{
+  font-weight:lighter;
+  font-size: 85%;
+}
+.homecontent{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 800px;
+}
+.homecontent .course0{
+  background-color: Darkblue;
+    width: 60%;
+    align-self: stretch;
 
+}
+.homecontent .eventswidget{
+
+  background-color: darkblue;
+  width: 30%;
+  height: 400px;
+
+}
+.homecontent a{
+  color: rgb(247, 241, 186);
+  text-decoration: none;
+}
+.homecontent a:hover{
+  color: rgb(243, 218, 149);
+  text-decoration: underline;
+}
 /* End of code for HOME */
 
 /* Start of code for LINKS */
