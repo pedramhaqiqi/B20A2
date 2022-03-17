@@ -1,4 +1,4 @@
-# B20A2
+# Web development course assignment
 
 Recreation of the CSCB63 website.
 
